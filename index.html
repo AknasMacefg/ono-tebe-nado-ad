@@ -41,57 +41,64 @@
     </header>
     <main>
       <section class="cover">
-        <div class="cover__title">
-          <p class="cover__title_first">оно</p>
-          <p class="cover__title_second">тебе</p>
-          <p class="cover__title_third">надо</p>
-        </div>
+        <h1 class="cover__title">
+          <span class="cover__title-ono">оно</span>
+          <span class="cover__title-tebe">тебе</span>
+          <span class="cover__title-nado">надо</span>
+        </h1>
         <div class="cover__description">
-          <p class="cover__description_subline">
+          <p class="cover__description-subline">
             аукцион вещей, в которые никто не верил
           </p>
-          <button class="cover__description_button">сделать ставку</button>
+          <button class="cover__description-button">сделать ставку</button>
         </div>
         <div class="overlay"></div>
       </section>
       <section id="lots" class="lots">
-        <h1 class="lots__title">Лоты</h1>
+        <h2 class="lots__title">Лоты</h2>
         <ul class="lots__lot">
-          <li class="lots__lot_first">
-            <h2 class="lots__lot_title">
-              Фильм режиссёра, который бросил киношколу
-            </h2>
-            <article class="lots__lot_article">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </article>
-            <div class="overlay"></div>
-          </li>
-          <li class="lots__lot_second">
-            <h2 class="lots__lot_title">
-              Книга, где описан один скучный день из жизни рекламного агента
-            </h2>
-            <article class="lots__lot_article">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-              переходами на древнеанглийский. В ней одновременно рассказывается
-              о 16 июня 1904 года и об истории литературы, начиная с античных
-              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-              бы вы поставили на «Улисса» Джеймса Джойса?
-            </article>
-            <div class="overlay"></div>
-          </li>
-          <li class="lots__lot_third">
-            <h2 class="lots__lot_title">
-              Картина, которую повторит даже 5-летний сын маминой подруги
-            </h2>
-            <article class="lots__lot_article">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-              Сколько бы вы на такое поставили, если бы не знали, что это — одна
-              из революционных работ Кандинского?
-            </article>
-            <div class="overlay"></div>
-          </li>
+          <a href="">
+            <li class="lots__lot-film">
+              <h3 class="lots__lot-title">
+                Фильм режиссёра, который бросил киношколу
+              </h3>
+              <article class="lots__lot-article">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </article>
+              <div class="overlay"></div>
+            </li>
+          </a>
+          <a href="">
+            <li class="lots__lot-book">
+              <h3 class="lots__lot-title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <article class="lots__lot-article">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                переходами на древнеанглийский. В ней одновременно
+                рассказывается о 16 июня 1904 года и об истории литературы,
+                начиная с античных времён. И это всё накладывается на эпическую
+                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
+                Джойса?
+              </article>
+              <div class="overlay"></div>
+            </li>
+          </a>
+          <a href="">
+            <li class="lots__lot-painting">
+              <h3 class="lots__lot-title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <article class="lots__lot-article">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                котиков... Сколько бы вы на такое поставили, если бы не знали,
+                что это — одна из революционных работ Кандинского?
+              </article>
+              <div class="overlay"></div>
+            </li>
+          </a>
         </ul>
         <a class="lots__more" href=""> посмотреть больше </a>
       </section>
@@ -104,8 +111,8 @@
           />
         </div>
         <div class="about__article">
-          <h2 class="about__article_title">Об аукционе</h2>
-          <div class="about__article_text">
+          <h2 class="about__article-title">Об аукционе</h2>
+          <div class="about__article-text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
@@ -122,6 +129,7 @@
               вещи не верил никто, продолжали верить их создатели. И сейчас эти
               лоты стали культовыми.
             </p>
+            
           </div>
         </div>
       </section>

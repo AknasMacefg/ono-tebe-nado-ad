@@ -122,21 +122,21 @@ body {
   z-index: 1;
 }
 
-.cover__title_first {
+.cover__title-ono {
   position: absolute;
   top: 0;
   left: 0;
   width: 286;
 }
 
-.cover__title_second {
+.cover__title-tebe {
   position: absolute;
   top: 135px;
   left: 330.5px;
   width: 339px;
 }
 
-.cover__title_third {
+.cover__title-nado {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -156,7 +156,7 @@ body {
   display: flex;
 }
 
-.cover__description_subline {
+.cover__description-subline {
   position: relative;
   left: 0px;
   font-family: "Raleway", serif;
@@ -169,7 +169,7 @@ body {
   word-spacing: 20px;
 }
 
-.cover__description_button {
+.cover__description-button {
   width: 256px;
   height: 51px;
   position: absolute;
@@ -225,7 +225,7 @@ body {
   height: 723px;
 }
 
-.lots__lot_first {
+.lots__lot-film {
   list-style-type: none;
   position: relative;
   width: 334px;
@@ -237,7 +237,7 @@ body {
   background-position: center;
 }
 
-.lots__lot_second {
+.lots__lot-book {
   list-style-type: none;
   position: relative;
   width: 334px;
@@ -248,7 +248,7 @@ body {
   background-position: center;
 }
 
-.lots__lot_third {
+.lots__lot-painting {
   list-style-type: none;
   position: relative;
   width: 334px;
@@ -259,7 +259,7 @@ body {
   background-position: center;
 }
 
-.lots__lot_title {
+.lots__lot-title {
   position: absolute;
   height: 82px;
   left: 40px;
@@ -276,7 +276,7 @@ body {
   z-index: 1;
 }
 
-.lots__lot_article {
+.lots__lot-article {
   position: absolute;
   height: 360px;
   left: 40px;
@@ -342,7 +342,7 @@ body {
   top: 133px;
 }
 
-.about__article_title {
+.about__article-title {
   position: absolute;
   width: 291px;
   height: 47px;
@@ -357,7 +357,7 @@ body {
   color: #000000;
 }
 
-.about__article_text {
+.about__article-text {
   position: absolute;
   width: 693px;
   height: 312px;
